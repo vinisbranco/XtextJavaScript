@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="JavaScriptParsingTest.loadSub" project="org.xtext.example.JavaScript.tests" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="loadSub" classname="org.xtext.example.mydsl.tests.JavaScriptParsingTest" time="0.268"/>
+</testrun>

@@ -1,0 +1,26 @@
+grammar org.xtext.example.mydsl.JavaScript with org.eclipse.xtext.common.Terminals
+
+generate javaScript "http://www.xtext.org/example/mydsl/JavaScript"
+
+
+JavaScript:
+	'var' name=ID '=' elements=elems ';'
+;
+
+elems:
+	elements=funcs | elements=Boolean
+;
+
+funcs:
+	STRING | INT | INT '.' INT
+;
+
+Boolean:
+	'true'|'false'
+;
+
+
+
+
+
+
